@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 10px;
+	background-color: #111;
+	width: 50%;
+}
+
+.b-post {
+	background-color: #333;
+	margin: 5px;
+	padding: 5px;
+	color: #fff;
+
+	&__header {
+		width: 100%;
+		display: flex;
+	
+		&-image {
+			width: 50px;
+			height: 50px;
+			margin-right: 5px;
+		}
+		
+		&-info {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		
+		&-title {
+			font-size: 25px;
+		}
+	}
+	
+	&__content {
+		margin: 5px 0;
+	}
+	
+	&__content p {
+		margin: 5px 0;
+	}
+}
