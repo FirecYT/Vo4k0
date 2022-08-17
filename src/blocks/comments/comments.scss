@@ -1,0 +1,25 @@
+.b-comments {
+	&__write {
+		padding: 5px;
+		background-color: #333;
+	
+		&-input {
+			width: 100%;
+			resize: vertical;
+			color: #999;
+			background-color: #222;
+			border: 1px solid #111;
+		}
+	
+		&-button {
+			padding: 5px;
+			color: #999;
+			background-color: #222;
+			border: 1px solid #111;
+		}
+	}
+	
+	&__item {
+		margin-top: 5px;
+	}
+}
